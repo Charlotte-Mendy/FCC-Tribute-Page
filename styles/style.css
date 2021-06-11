@@ -1,0 +1,133 @@
+/* General */
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Main content */
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    /* border: 2px solid red; */
+    margin: 1.5rem;
+    width: fit-content;
+}
+
+/* Page title & subtitle */
+#title {
+    font-size: 6rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+#subtitle {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#title,
+#subtitle {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+/* Image */
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#illustration {
+    margin: 0.5rem;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem;
+}
+
+#image-caption {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Related content */
+#tribute-info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    font-size: 4rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#content {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Blockquote */
+#quote {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5rem;
+    border-left: 2rem solid #fff;
+    width: fit-content;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* Link to external info */
+#tribute-link {
+    color: #fff;
+}
+
+#tribute-link:hover {
+    color: blue;
+}
+
+/* Footer */
+#footer {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Media queries */
+/*
+Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (max-width: 600px) {
+
+Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+
+}
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+
+}
+*/
