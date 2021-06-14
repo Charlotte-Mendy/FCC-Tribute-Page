@@ -3,16 +3,14 @@ html {
     font-size: 10px;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 body {
-    background-color: #4d4d4d;
+    background-color: #1d1d1d;
     color: #fff;
     padding: 2rem;
     text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* Main content */
@@ -21,9 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    /* border: 2px solid red; */
-    margin: 1.5rem;
-    width: fit-content;
+    margin: auto;
 }
 
 /* Page title & subtitle */
@@ -53,21 +49,18 @@ body {
 
 #illustration {
     margin: 0.5rem;
+    font-style: italic;
+    font-size: 1.5rem;
 }
 
 #image {
     max-width: 100%;
     height: auto;
     display: block;
-    padding: 1rem;
 }
 
 #image-caption {
     font-family: 'Roboto Slab', serif;
-    font-style: italic;
-    font-size: 2rem;
-    padding: 1rem;
-    text-align: center;
 }
 
 /* Related content */
@@ -102,32 +95,66 @@ body {
 }
 
 /* Link to external info */
+#external-link {
+    margin: 1rem;
+}
+
 #tribute-link {
     color: #fff;
+    text-decoration: none;
 }
 
 #tribute-link:hover {
-    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
 }
+
+#tribute-link:visited {
+    color: rgb(255, 196, 0);
+}
+
 
 /* Footer */
 #footer {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 /* Media queries */
-/*
-Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {     /* Small devices */
 
-Medium devices (landscape tablets, 768px and up)
-@media only screen and (min-width: 768px) {
+    #title {
+        font-size: 3rem;
+    }
 
+    #subtitle {
+        font-size: 2.5rem;
+    }
+
+    #tribute-info {
+        align-items: flex-start;
+    }
+
+    #heading {
+        font-size: 2rem;
+    }
+
+    #content,
+    #quote,
+    #external-link {
+        text-align: left;
+        font-size: 1.5rem;
+    }
 }
-Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {
 
+@media (min-width: 600px) { /* Medium devices */
+    #main {
+        max-width: 60vw;
+    }
+
+    #quote {
+        max-width: 40vw;
+    }
 }
-*/
