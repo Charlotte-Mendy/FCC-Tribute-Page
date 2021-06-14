@@ -11,7 +11,7 @@ Here are the steps I followed to organize my work :
 ## Stack
 * HTML
 * CSS
-# Screenshots
+## Screenshots
 Mobile :
  <div style="text-align:center "><img src="screenshot-mobile.png" width="200"/></div>
 Desktop :
